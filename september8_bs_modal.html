@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP MODAL</title>
+    <!-- a free open source CDN (Content Delivery Network) from bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+</head>
+
+<body>
+
+  <h1>Modal - a dialog box that appers on top</h1>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="jumbotron">
+                <h1>Heading 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore deleniti id sequi
+                    quae porro, tempore tenetur saepe maiores doloremque.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infomodal">Click</button>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="jumbotron">
+                <h1>Heading 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore deleniti id sequi
+                    quae porro, tempore tenetur saepe maiores doloremque.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infomodal">Click</button>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="jumbotron">
+                <h1>Heading 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam inventore deleniti id sequi
+                    quae porro, tempore tenetur saepe maiores doloremque.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infomodal">Click</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal" id="infomodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- modal header -->
+                <div class="modal-header">
+                    <p class="modal-title">Product Details</p>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- modal body -->
+                <div class="modal-body">
+                    <table class="table table-striped borderless">
+                        <tr>
+                            <td>Product Name</td>
+                            <td>ABC XYZ</td>
+                        </tr>
+                        <tr>
+                            <td>Product proce</td>
+                            <td>&dollar;4</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <!-- modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Add to Cart</button>
+                    <button type="button" class="btn btn-info">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
